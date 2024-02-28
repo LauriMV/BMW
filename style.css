@@ -1,0 +1,228 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+}
+
+
+.header{
+
+    
+    width: 100%;
+    height: 100vh;
+    
+    
+   
+    
+    
+    
+}
+.header-container{
+display: flex;
+width: 100%;
+height: 120px;
+justify-content: space-between;
+border-bottom: black;
+
+    
+}
+
+.mv-header__background{
+ width: 100%;
+ height: 100vh;
+ position: absolute;
+ z-index: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.mv-img{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+}
+
+.box-div{
+    display: flex;
+    z-index: 1;
+    width: calc(100% - 200px);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-nav{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.box-ul1{
+    display: flex;
+}
+
+.logo{
+    display:flex ;
+    z-index: 1;
+    height: 120px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.img-logo{
+    
+    height: 70%;
+    margin-right: 300px;
+    
+}
+
+.box-ul2{
+
+    display: flex;
+    padding-left: 30px;
+}
+
+.box-nav2{
+        padding-left: 35px;
+        
+}
+
+.icons{
+    padding-left: 23px;
+}
+
+.box-li{
+
+    border-left-width: 0px;
+    padding-left: 10px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.text-header_div{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: x-large;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: column;
+    top: 119px;
+    margin-top: 656px;
+    padding-left: 55px;
+
+}
+
+.buttom{
+    text-align: right;
+}
+
+.buttom button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.pre-menu{
+    display: flex;
+    width: 50px;
+    justify-content: flex-end;
+    padding-top: 22px;
+    padding-left: 40px;
+    color: grey;
+    
+        
+}
+
+.list-gallery{
+
+    display: flex;
+}
+
+.model-cars{
+    display: flex;
+    border-left-width: 8px;
+    margin-left: 35px;
+    padding-top: 9px;
+}
+.cars_list{
+padding-left: 15px;
+font-size: x-large;
+}
+
+.box-div{
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.mv-gallery-cars{
+width: 100%;
+height: 320px;
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mv-gallery{
+        width: 33.33%;
+        box-sizing: border-box;
+        padding: 15px;
+        
+}
+
+.car-images{
+    width: 100%;
+        height: 100%;
+        object-fit: cover;
+        flex-wrap: wrap;
+}
+
+.mv-text {
+       font-size: 16px;
+       font-family: Arial;
+       color: #707072;
+    flex-wrap: wrap;
+   }
+
+   .u-color-dark {
+       color: #111111;
+   }
+
+   .u-color-label {
+       color: #9E3401
+   }
+
+   .footer-list{
+
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .inf-footer{
+
+    display: flex;
+   }
+
+   .footer-li{
+    border-left-width: 0px;
+     padding-left: 37px;
+     
+    }
+   
